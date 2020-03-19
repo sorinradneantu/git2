@@ -26,9 +26,10 @@ public class ProcesorCautare implements Procesor {
 
         return res;
     }
- public String returnText()  //Aici am modificat in primul branch
-{
-  return this.text;
-}
+
+    public void modifica() // aici am modificat in al doilea branch creat
+    {
+        this.text="GIT GIT GIT";
+    }
 
 }
