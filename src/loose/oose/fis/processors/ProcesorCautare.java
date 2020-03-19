@@ -26,4 +26,9 @@ public class ProcesorCautare implements Procesor {
 
         return res;
     }
+ public String returnText()  //Aici am modificat in primul branch
+{
+  return this.text;
+}
+
 }
